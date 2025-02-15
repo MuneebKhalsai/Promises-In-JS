@@ -106,24 +106,45 @@
 // })
 
 
-function mobile(paisa) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            if (paisa>50000) {
-               console.log('Chalo');
-               resolve('Iphone Lete Hai')
-            } else {
-                console.log('Nh Yrr');
-                reject('Andriod Hi Sahi Hai')
-            }
-        }, 1000);
-    })
+// function mobile(paisa) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             if (paisa>50000) {
+//                console.log('Chalo');
+//                resolve('Iphone Lete Hai')
+//             } else {
+//                 console.log('Nh Yrr');
+//                 reject('Andriod Hi Sahi Hai')
+//             }
+//         }, 1000);
+//     })
     
-}
-mobile(paisa = 10000)
-.then((res) => {
-    console.log(res)
-})
-.catch((err) => {
-    console.log(err)
-})
+// }
+// mobile(paisa = 10000)
+// .then((res) => {
+//     console.log(res)
+// })
+// .catch((err) => {
+//     console.log(err)
+// })
+
+// fetch() 
+// .then((res) => {
+//     return res.json()
+// })
+// .then((res) => {
+//     console.log(res);
+// })
+// .catch((err) => {
+//     console.log(err);
+// })
+
+
+// axios ('https://fakestoreapi.com/products')
+// .then((res) => {
+//     console.log(res.data)
+// })
+// .catch((err) => {
+//     console.log(err)
+// })
+
